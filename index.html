@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link rel="stylesheet" href="./style.css" />
+
     <title>Maratona Explorer</title>
   </head>
   <body>
@@ -16,9 +17,11 @@
       />
       <h1>Vou revelar seu destino!</h1>
       <p>Clique em fazer pergunta para que seu destino seja revelado.</p>
-      <input type="text" placeholder="Digite sua pergunta!" />
+      <input id="inputPergunta" type="text" placeholder="Digite sua pergunta!" />
+      <button onclick="fazerPergunta()">Fazer Pergunta</button>
 
-      <button>Fazer Pergunta</button>
+      <h3 id="resposta"></h3>
     </div>
+    <script src="./script.js"></script>
   </body>
 </html>
